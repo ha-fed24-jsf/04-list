@@ -1,15 +1,10 @@
-const facts = {
-	name: 'Fox',
-	sound: 'unknown',
-	legs: 4,
-	hasTail: true
-}
+import './AnimalFact.css'
 
-const AnimalFact = () => (
+const AnimalFact = ({ facts }) => (
 	<section className="animal-fact">
 		<p> Animal: {facts.name} </p>
 		<p> Sound: {facts.sound} </p>
-		<p> The fox has facts.legs legs and a {facts.hasTail}. </p>
+		<p> The {facts.name} has {facts.legs} legs and {facts.hasTail ? 'a' : 'no'} tail. </p>
 	</section>
 )
 
