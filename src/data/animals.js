@@ -22,4 +22,7 @@ const animals = [
 	}
 ]
 
+// I en professionell app använder man snarare en funktion som hämtar datan från ett API
+// Använd fetch i första hand
+
 export { animals }
