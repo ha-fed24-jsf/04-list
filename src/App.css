@@ -1,0 +1,17 @@
+header {
+	background-color: #61c267;
+	font-weight: bold;
+}
+main {
+	background-color: #aef5b3;
+	flex-grow: 1;
+}
+header, main {
+	padding: 1em 2em;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
